@@ -1,0 +1,109 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    
+ 
+    
+}
+
+img{
+    width: 50px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border:solid black;
+    background-color: white;
+    width: fit-content;
+    padding-bottom: 80px;
+}
+
+.definition-text{
+    padding: 10px;
+}
+
+
+
+
+
+.like-btn {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+}
+
+
+
+.row { 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    top: -220px;
+    
+ 
+    
+}
+
+
+
+
+
+.box {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 40px;
+    border: 2px solid #999;
+    margin-right: 205px;
+    align-items: flex-end;
+}
+
+.someUser {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+  
+}
+
+
+
+
+
+.like-btn {
+    background-color: #ffd966;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box h2 {
+    font-size: 1.7rem;
+}
+
+.label{
+    color: white;
+    background-color: black;
+}
+.label2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
