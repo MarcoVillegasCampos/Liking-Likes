@@ -1,39 +1,11 @@
+console.log("page loading...");
 
+// index     0  1   2
+var likes = [12];
+var spans = [document.querySelector("#number1")];
 
-function likes(element){
-    
-    let liked=document.getElementById("number").innerHTML;
-       Number(liked);
-      
-       for(let i=0; i> liked.length; i++){
-        liked.innerHTML=liked[i];
-        
-
-        
-
-
-       }
-       
-
-
-
-
-    
-    
-
-
-   
-
-
-
-
-
-
-    
-
-
-
-
-
+function like(id) {
+    likes[id]++;
+    spans[id].innerHTML= likes[id] +"like(s)"
 
 }
